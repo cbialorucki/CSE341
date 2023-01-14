@@ -1,13 +1,14 @@
-const routes = require('express').Router();
+const router = require('express').Router();
+router.use('/contacts', require('./contacts'))
 
-routes.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.send('Aubrey Bialorucki');
 });
-routes.get('/test', (req, res) => {
+router.get('/test', (req, res) => {
   res.send('Bonnie Bialorucki');
 });
-routes.get('/test2', (req, res) => {
+router.get('/test2', (req, res) => {
   res.send('Carl Bialorucki');
 });
 
-module.exports = routes;
+module.exports = router;

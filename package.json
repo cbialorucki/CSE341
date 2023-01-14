@@ -1,25 +1,27 @@
 {
-  "name": "cse341-apicourse-code",
+  "name": "CSE341",
   "version": "1.0.0",
-  "description": "code to give to students for the cse341 course",
-  "main": "server.js",
+  "description": "My code written to complete the objectives in the CSE341 course at BYU-Idaho. Many thanks to the BYU-I CSE GitHub repository, where many software architectural ideas are lifted from.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon server.js",
-    "start": "server.js"
+    "devStart": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanbirch/cse341-apiCourse-code.git"
+    "url": "git+https://github.com/Ticomware/CSE341.git"
   },
-  "author": "Nathan Birch",
+  "author": "CJ Bialorucki",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nathanbirch/cse341-apiCourse-code/issues"
+    "url": "https://github.com/Ticomware/CSE341/issues"
   },
-  "homepage": "https://github.com/nathanbirch/cse341-apiCourse-code#readme",
+  "homepage": "https://github.com/Ticomware/CSE341#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "mongodb": "^4.13.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
