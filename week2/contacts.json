@@ -1,0 +1,38 @@
+
+{
+    "contact": {
+      "firstName": "Turner",
+      "lastName": "Kunze",
+      "email": "camilla.douglas@yahoo.com",
+      "favoriteColor": "Orange",
+      "birthday": "09/22/45"
+    },
+    "contact2": {
+      "firstName": "Kirsten",
+      "lastName": "Ondricka",
+      "email": "celine.rau@eichmann.org",
+      "favoriteColor": "Brown",
+      "birthday": "05/11/77"
+    },
+    "contact3": {
+      "firstName": "Virgil",
+      "lastName": "Goldner",
+      "email": "faufderhar@dickens.info",
+      "favoriteColor": "Green",
+      "birthday": "08/29/59"
+    },
+    "contact4": {
+        "firstName": "Casper",
+        "lastName": "Bartoletti",
+        "email": "rtremblay@oreilly.com",
+        "favoriteColor": "Red",
+        "birthday": "02/23/76"
+    },
+    "contact5": {
+        "firstName": "Davon",
+        "lastName": "Adams",
+        "email": "kunze.dallin@shields.com",
+        "favoriteColor": "Black",
+        "birthday": "07/04/54"
+    }
+  }
