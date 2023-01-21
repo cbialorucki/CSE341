@@ -1,27 +1,67 @@
-// LOCALHOST
-###
+/// ***LOCALHOST***
+### Get All Contacts
 GET http://localhost:8080/contacts
-###
-GET http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3b
-###
-GET http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3c
-###
-GET http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3d
-###
-GET http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3e
-###
-GET http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3f
 
-// PRODUCTION Deploy
-###
+### Get One Contact
+GET http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3b
+
+### Create Contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"John",
+    "lastName":"Doe",
+    "email":"JohnDoe@example.com",
+    "favoriteColor":"Green",
+    "birthday":"01/01/1999"
+}
+
+### Update Contact
+PUT http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3b HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Example",
+    "lastName":"Man",
+    "email":"Exam.Man@example.com",
+    "favoriteColor":"Orange",
+    "birthday":"12/31/1990"
+}
+
+### Delete Contact
+DELETE  http://localhost:8080/contacts/63c961ee507a2f00e9a05309 HTTP/1.1
+
+/// ***PRODUCTION***
+### Get All Contacts
 GET https://cse341-dwbb.onrender.com/contacts
-###
-GET https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3b
-###
-GET https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3c
-###
-GET https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3d
-###
-GET https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3e
-###
-GET https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3f
+
+### Get One Contact
+GET https://cse341-dwbb.onrender.com/63c2fe8cb94baacb1ceb2d3b
+
+### Create Contact
+POST https://cse341-dwbb.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Donald",
+    "lastName":"Trump",
+    "email":"45@whitehouse.gov",
+    "favoriteColor":"Red",
+    "birthday":"06/14/1946"
+}
+
+### Update Contact
+PUT https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3b HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Master",
+    "lastName":"Chief",
+    "email":"John-117@oni.org",
+    "favoriteColor":"Green",
+    "birthday":"03/07/2511"
+}
+
+### Delete Contact
+DELETE  http://localhost:8080/contacts/63c961ee507a2f00e9a05309 HTTP/1.1
