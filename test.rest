@@ -30,14 +30,14 @@ content-type: application/json
 }
 
 ### Delete Contact
-DELETE  http://localhost:8080/contacts/63c961ee507a2f00e9a05309 HTTP/1.1
+DELETE  http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3b HTTP/1.1
 
 /// ***PRODUCTION***
 ### Get All Contacts
 GET https://cse341-dwbb.onrender.com/contacts
 
 ### Get One Contact
-GET https://cse341-dwbb.onrender.com/63c2fe8cb94baacb1ceb2d3b
+GET https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3b
 
 ### Create Contact
 POST https://cse341-dwbb.onrender.com/contacts HTTP/1.1
@@ -52,7 +52,7 @@ content-type: application/json
 }
 
 ### Update Contact
-PUT https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3b HTTP/1.1
+PUT https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3e HTTP/1.1
 content-type: application/json
 
 {
@@ -64,4 +64,4 @@ content-type: application/json
 }
 
 ### Delete Contact
-DELETE  http://localhost:8080/contacts/63c961ee507a2f00e9a05309 HTTP/1.1
+DELETE  http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3e HTTP/1.1
