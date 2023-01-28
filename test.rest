@@ -32,6 +32,9 @@ content-type: application/json
 ### Delete Contact
 DELETE  http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3b HTTP/1.1
 
+### API Documentation
+GET http://localhost:8080/api-docs
+
 /// ***PRODUCTION***
 ### Get All Contacts
 GET https://cse341-dwbb.onrender.com/contacts
@@ -64,4 +67,7 @@ content-type: application/json
 }
 
 ### Delete Contact
-DELETE  http://localhost:8080/contacts/63c2fe8cb94baacb1ceb2d3e HTTP/1.1
+DELETE  https://cse341-dwbb.onrender.com/contacts/63c2fe8cb94baacb1ceb2d3e HTTP/1.1
+
+### API Documentation
+GET https://cse341-dwbb.onrender.com/api-docs
