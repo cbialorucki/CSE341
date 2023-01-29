@@ -2,10 +2,10 @@ const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
   info: {
-    title: 'My API',
-    description: 'Description',
+    title: 'CSE 341 Backend',
+    description: 'A sample backend for CSE341.',
   },
-  host: 'localhost:3000',
+  host: 'https://cse341-dwbb.onrender.com/',
   schemes: ['http'],
 };
 
