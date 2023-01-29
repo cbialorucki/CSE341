@@ -5,7 +5,7 @@ const doc = {
     title: 'CSE 341 Backend',
     description: 'A sample backend for CSE341.',
   },
-  host: 'https://cse341-dwbb.onrender.com/',
+  host: 'cse341-dwbb.onrender.com',
   schemes: ['http'],
 };
 
