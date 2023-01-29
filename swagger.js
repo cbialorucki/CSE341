@@ -6,7 +6,7 @@ const doc = {
     description: 'A sample backend for CSE341.',
   },
   host: 'cse341-dwbb.onrender.com',
-  schemes: ['http'],
+  schemes: ['https'],
 };
 
 const outputFile = './swagger.json';
